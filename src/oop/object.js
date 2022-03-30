@@ -11,7 +11,7 @@ const cicle = {
 
 const person = {
   age: 21,
-  height: 6,
+  height: 6, ////
   eat: function () {
     console.log("Eating.....");
   },
