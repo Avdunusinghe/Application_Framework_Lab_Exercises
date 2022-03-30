@@ -11,8 +11,8 @@ function Circle(radius) {
   this.radius = radius;
 }
 
-/*Circle.prototype = Object.create(Object.prototype);
-Circle.prototype = Object.create(Shape.prototype);*/
+Circle.prototype = Object.create(Object.prototype);
+Circle.prototype = Object.create(Shape.prototype);
 
 function extend(Child, Parent) {
   Child.prototype = Object.create(Parent.prototype);
