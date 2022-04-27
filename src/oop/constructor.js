@@ -5,7 +5,7 @@ function Circle(radius) {
   };
 }
 
-const another = new Circle();
+const another = new Circle(2);
 
 //hapense 3 thing
 // {} / this point / return Circle auto

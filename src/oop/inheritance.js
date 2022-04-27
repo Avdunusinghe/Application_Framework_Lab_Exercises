@@ -7,7 +7,7 @@ Shape.prototype.duplicate = function () {
 };
 
 function Circle(radius) {
-  Shape.call(this, color);
+  //Shape.call(this, color);
   this.radius = radius;
 }
 
@@ -20,7 +20,7 @@ function extend(Child, Parent) {
 }
 
 Circle.prototype.draw = function () {
-  console.log("draw");
+  console.log("draw"); //FDDY//
 };
 
 extend(Circle, Shape);
@@ -40,3 +40,11 @@ const shapes = [new Circle(), new Square()];
 for (let Shape of shapes) {
   Shape.duplicate();
 }
+
+function Person(name) {
+  this.name = name;
+}
+
+var person = new Person("Ashen");
+
+console.log(person);
